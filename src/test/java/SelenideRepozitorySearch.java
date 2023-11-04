@@ -17,7 +17,7 @@ public class SelenideRepozitorySearch {
     }
 
     @Test
-    void searchJunitCodeOnSoftAssertsPage() {
+    void searchJunitCodeOnSoftAssertsPageTest() {
         String exampleJunit5 = String.join (
                 "\n"+ "@ExtendWith({SoftAssertsExtension.class})\n"
                 + "class Tests {\n"
